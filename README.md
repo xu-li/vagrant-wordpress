@@ -11,7 +11,7 @@ A vagrant script to provision wordpress environment
 
 ### Provision a local environment using latest wordpress
 
-1. ```git clone https://github.com/xu-li/vagrant-wordpress```
+1. ```git clone https://github.com/xu-li/vagrant-wordpress.git```
 2. ```cd vagrant-wordpress```
 3. ```vagrant up```
 4. add ```192.168.10.10 wp.local``` to [hosts](http://en.wikipedia.org/wiki/Hosts_(file))
@@ -19,7 +19,7 @@ A vagrant script to provision wordpress environment
 
 ### Provision a local environment using legacy wordpress
 
-1. ```git clone https://github.com/xu-li/vagrant-wordpress```
+1. ```git clone https://github.com/xu-li/vagrant-wordpress.git```
 2. ```cd vagrant-wordpress```
 3. change ```WP_VERSION``` to the version you want to install, e.g. ```WP_VERSION="3.9.1"```
 4. ```vagrant up```
